@@ -1,0 +1,19 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Integer[] a = {1,2,3,4};
+		
+		CircularArray<Integer> circularArray = new CircularArray<>(a);
+		
+		System.out.println("Before rotate");
+		
+	}
+	
+	public <T> void printArray(T[] array) {
+		for(int i = 0; i<array.length; i++) {
+			System.out.println(array[i] + " ");
+		}
+	}
+	
+}
